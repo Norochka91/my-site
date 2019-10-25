@@ -1,0 +1,28 @@
+@mixin position
+{
+    display: flex;
+    justify-content: space-between;
+}
+@mixin positionWrap
+{
+    width:80%;
+    margin:auto;
+    padding:5%;
+}
+@mixin name($flex-basis, $bgc,$padding)
+{
+    flex-basis:$flex-basis;
+    background-color: $bgc;
+    padding:$padding;
+    font-weight: bold;
+    font-size:12px;  
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+}
+@mixin MyDecoration($weight, $size, $family, $color:#ffffff)
+{
+    font-weight:$weight;
+    font-size:$size;  
+    font-family: $family;
+    color:$color;
+}
